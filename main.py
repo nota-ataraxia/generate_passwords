@@ -30,4 +30,4 @@ def generate_password(length, chars):
         for j in range(length):
           password += random.choice(chars)
         print(f'Пароль номер {i}: {password}')
-generate_password(length_pass, chars, '123')
+generate_password(length_pass, chars,)
